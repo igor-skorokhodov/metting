@@ -1,0 +1,6 @@
+.header__logocontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 720px;
+}

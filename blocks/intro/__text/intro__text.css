@@ -1,0 +1,14 @@
+.intro__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 287px;
+    min-width: 500px;
+}
+
+@media screen and (max-width: 475px) {
+    .intro__text {
+      min-width: 89%;
+    }
+  }
+  

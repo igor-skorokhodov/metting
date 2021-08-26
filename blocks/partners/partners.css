@@ -1,0 +1,15 @@
+.partners {
+    display: flex;
+    flex-direction: row;
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1170px) {
+    .partners {
+        width: 95%;
+    }
+}

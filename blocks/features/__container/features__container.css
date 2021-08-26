@@ -1,0 +1,15 @@
+.features__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 267px;
+  width: 320px;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 475px) {
+    .features__container {
+      height: 230px;
+      margin-bottom: 48px;
+    }
+  }

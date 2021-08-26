@@ -1,0 +1,14 @@
+.statistics__img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 101px;
+}
+
+@media screen and (max-width: 475px) {
+    .statistics__img-container {
+        justify-content: start;
+        margin-bottom: 22px;
+    }
+  }
+  

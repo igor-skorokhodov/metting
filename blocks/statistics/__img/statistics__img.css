@@ -1,0 +1,12 @@
+.statistics__img {
+  width: 16px;
+  height: 16px;
+}
+
+@media screen and (max-width: 475px) {
+  .statistics__img {
+    width: 9px;
+    height: 9px;
+    margin-right: 3px;
+  }
+}

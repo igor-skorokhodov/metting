@@ -1,0 +1,19 @@
+.intro__subheader {
+  font-size: 17px;
+  line-height: 28px;
+  color: #18216d;
+  margin-top: 16px;
+  margin-bottom: 34px;
+}
+
+@media screen and (max-width: 475px) {
+  .intro__subheader {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    order: 2;
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

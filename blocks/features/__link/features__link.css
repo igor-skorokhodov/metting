@@ -1,0 +1,15 @@
+.features__link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 16px;
+  color: #18216d;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 475px) {
+  .features__link {
+    font-size: 20px;
+    line-height: 16px;
+  }
+}

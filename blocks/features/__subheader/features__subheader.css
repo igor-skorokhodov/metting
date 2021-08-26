@@ -1,0 +1,18 @@
+.features__subheader {
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #18216d;
+  font-weight: normal;
+  margin-bottom: 79px;
+  width: 47%;
+}
+
+@media screen and (max-width: 475px) {
+  .features__subheader {
+    font-size: 14px;
+    line-height: 24px;
+    opacity: 0.6;
+    width: 105%;
+  }
+}

@@ -1,0 +1,17 @@
+.statistics__header {
+  margin: 0;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 50px;
+  color: #18216d;
+  width: 494px;
+}
+
+@media screen and (max-width: 475px) {
+  .statistics__header {
+    font-size: 20px;
+    line-height: 30px;
+    color: #18216d;
+    width: 330px;
+  }
+}

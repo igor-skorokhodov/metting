@@ -1,0 +1,11 @@
+.ellipse {
+    position: absolute;
+}
+
+@media screen and (max-width: 475px) {
+    .ellipse {
+      width: 383px;
+      height: 383px;
+    }
+  }
+  

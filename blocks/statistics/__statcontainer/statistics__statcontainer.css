@@ -1,0 +1,16 @@
+.statistics__statcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 340px;
+    margin-right: 75px;
+}
+
+@media screen and (max-width: 475px) {
+    .statistics__statcontainer {
+        width: 223px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+  

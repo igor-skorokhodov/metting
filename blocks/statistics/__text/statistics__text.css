@@ -1,0 +1,13 @@
+.statistics__text {
+  margin: 0;
+  font-size: 16px;
+  line-height: 28px;
+  color: #18216d;
+}
+
+@media screen and (max-width: 475px) {
+  .statistics__text {
+    font-size: 8px;
+    line-height: 10px;
+  }
+}

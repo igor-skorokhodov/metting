@@ -1,0 +1,7 @@
+.intro__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+    min-width: 498px;
+}

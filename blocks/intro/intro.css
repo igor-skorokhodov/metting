@@ -1,0 +1,11 @@
+.intro {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 475px) {
+  .intro {
+    flex-direction: column;
+    width: 100%;
+  }
+}

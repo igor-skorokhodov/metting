@@ -1,0 +1,16 @@
+.intro__pic {
+  z-index: -1;
+  position: relative;
+  left: -90px;
+  background-image: url("../../../images/intro.jpg");
+}
+
+@media screen and (max-width: 475px) {
+  .intro__pic {
+    background-image: url("../../../images/intro2.jpg");
+    min-width: 450px;
+    height: 300px;
+    order: 4;
+    margin-left: -10px;
+  }
+}

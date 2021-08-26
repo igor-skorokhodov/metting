@@ -1,0 +1,12 @@
+.header__input {
+  width: 95%;
+  height: 95%;
+  border: none;
+}
+
+::placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  color: #bbc4d6;
+}

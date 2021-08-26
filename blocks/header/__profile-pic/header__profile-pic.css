@@ -1,0 +1,15 @@
+.header__profile-pic {
+    width: 24px;
+    height: 24px;
+    display: none;
+    order: 4;
+}
+
+@media screen and (max-width: 660px) {
+    .header__profile-pic {
+        display: flex;
+        order: 2;
+        break-after: always;
+        margin-right: 5%;
+    }
+}
